@@ -1,0 +1,3 @@
+package_format 1
+CPPFLAGS="$CPPFLAGS @GTK_CFLAGS@"
+LIBS="-lobjgtk @GTK_LIBS@ $LIBS"
